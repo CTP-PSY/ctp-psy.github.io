@@ -125,8 +125,8 @@
   var statusEl = document.getElementById("mpStatus");
   var prevBtn = document.getElementById("mpPrev");
   var nextBtn = document.getElementById("mpNext");
-  /* Default station: Abstrait, first station of the Chillout & Lounge group. */
-  var idx = 5;
+  /* Default station: Psytrancelicious, first station of the Psy & Goa group. */
+  var idx = 18;
   function loadStation(i){
     idx = (i + STATIONS.length) % STATIONS.length;
     var s = STATIONS[idx];
