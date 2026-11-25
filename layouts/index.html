@@ -1,0 +1,258 @@
+{{ define "main" }}
+<div class="layout" id="top">
+{{ partial "sidebar-left.html" . }}
+<main class="col col-center">
+<div class="hero">
+            <img src="assets/banners/ctp-psy-banner.webp" alt="CTP-PSY banner: a psytrance festival at night — a fractal LED canopy glowing violet, cyan and magenta over a dancing crowd, lasers through haze, full moon and stars above" width="1920" height="1080" />
+          </div>
+          <div class="hero-strip">
+            <span class="hs-text">The global psytrance portal — news, festivals and releases in one place.</span>
+            <span style="margin-left:auto; display:flex; gap:8px; flex-wrap:wrap">
+              <button type="button" class="btn btn-primary" data-play-channel="ctp-01">Listen Live</button>
+              <a class="btn" href="#events">Events</a>
+            </span>
+          </div>
+
+          <section class="block" aria-label="Welcome">
+            <div class="block-title">CTP-PSY — Psytrance Only</div>
+            <div class="block-body">
+              <h2 class="sec">One genre, every shade of it</h2>
+              <p>CTP-PSY is the global psytrance community portal of the CTPVerse. CTP Music covers many genres — this portal is just for the psytrance demographic: the festivals, the labels, the releases and the radio, syndicated from around the world into one place.</p>
+              <div class="eco" style="margin-top:10px">
+                <div class="cell"><b>News</b><span>Psytrance news from the global scene, syndicated here.</span></div>
+                <div class="cell"><b>Festivals</b><span>The big gatherings and the underground weekends, worldwide.</span></div>
+                <div class="cell"><b>Releases</b><span>Curated Bandcamp players — full-on, progressive, darkpsy, goa and more.</span></div>
+                <div class="cell"><b>Radio</b><span>Psytrancelicious live, plus psytrance channels coming soon.</span></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="block" id="events" aria-label="Upcoming events">
+            <div class="block-title">Upcoming Events</div>
+            <div class="block-body">
+              <h2 class="sec">Discover the psytrance scene</h2>
+              <p>Find upcoming events, explore artists and check out their lineups. All in one place.</p>
+              <ul class="feed">
+                <li><span class="tag">Dec 27</span><div><span class="ft">Universo Paralello</span><p>27 Dec 2026 – 4 Jan 2027 · Praia de Pratigi, Bahia, Brazil — the biennial New Year gathering on the beach. <a href="https://psychedelicisland.com/en/articles/psytrance-festivals-2027" target="_blank" rel="noopener">2027 calendar</a></p></div></li>
+                <li><span class="tag">Mar 5</span><div><span class="ft">Rainbow Spirit</span><p>5–8 Mar 2027 · Glenaroua, Victoria, Australia — Australia's main gathering, Labour Day weekend. <a href="https://psychedelicisland.com/en/articles/psytrance-festivals-2027" target="_blank" rel="noopener">2027 calendar</a></p></div></li>
+                <li><span class="tag">Jun 24</span><div><span class="ft">Burning Mountain</span><p>24–27 Jun 2027 · Zernez, Switzerland — four days at 1,500 metres in the Alps. <a href="https://psychedelicisland.com/en/articles/psytrance-festivals-2027" target="_blank" rel="noopener">2027 calendar</a></p></div></li>
+                <li><span class="tag">Jul 1</span><div><span class="ft">Ethereal Decibel</span><p>1–4 Jul 2027 · France — four days of psychedelic sound. <a href="https://psychedelicisland.com/en/articles/psytrance-festivals-2027" target="_blank" rel="noopener">2027 calendar</a></p></div></li>
+                <li><span class="tag">Jul 5</span><div><span class="ft">Masters of Puppets</span><p>5–11 Jul 2027 · Valeč, Czech Republic — a week of darkpsy, hi-tech and forest, 18+, at a new site. <a href="https://psychedelicisland.com/en/articles/psytrance-festivals-2027" target="_blank" rel="noopener">2027 calendar</a></p></div></li>
+                <li><span class="tag">Jul 16</span><div><span class="ft">VooV Experience</span><p>16–19 Jul 2027 · Putlitz, Germany — a smaller German gathering in the countryside. <a href="https://psychedelicisland.com/en/articles/psytrance-festivals-2027" target="_blank" rel="noopener">2027 calendar</a></p></div></li>
+                <li><span class="tag">Jul 18</span><div><span class="ft">Boom Festival</span><p>18–25 Jul 2027 · Boomland, Idanha-a-Nova, Portugal — the 30th anniversary, sold out. <a href="https://boomfestival.org/" target="_blank" rel="noopener">boomfestival.org</a></p></div></li>
+                <li><span class="tag">Jul 23</span><div><span class="ft">OZORA</span><p>23 Jul – 3 Aug 2027 · Dádpuszta, Hungary — twelve days, the long stay. <a href="https://psychedelicisland.com/en/festivals/ozora-festival" target="_blank" rel="noopener">Festival guide</a></p></div></li>
+                <li><span class="tag">Aug 2</span><div><span class="ft">Mo:Dem</span><p>2–8 Aug 2027 · Primišlje, Croatia — seven days in a river valley, darker sounds. <a href="https://psychedelicisland.com/en/articles/psytrance-festivals-2027" target="_blank" rel="noopener">2027 calendar</a></p></div></li>
+                <li><span class="tag">Aug 25</span><div><span class="ft">Indian Spirit</span><p>25–30 Aug 2027 · Eldena, Germany — Germany's biggest psytrance festival. <a href="https://psychedelicisland.com/en/articles/psytrance-festivals-2027" target="_blank" rel="noopener">2027 calendar</a></p></div></li>
+                <li><span class="tag">Sep 1</span><div><span class="ft">Own Spirit</span><p>1–6 Sep 2027 · Huesca, Spain — six days by the reservoir, the end of summer. <a href="https://psychedelicisland.com/en/articles/psytrance-festivals-2027" target="_blank" rel="noopener">2027 calendar</a></p></div></li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="block" id="artists" aria-label="Artists at upcoming events">
+            <div class="block-title">Artists at Upcoming Events</div>
+            <div class="block-body">
+              <h2 class="sec">Who is playing soon</h2>
+              <p class="small muted">Seed lineups — artists and appearances to be confirmed as festivals announce. Swap in real lineups as they land.</p>
+              <ul class="feed">
+                <li><span class="tag">IL</span><div><span class="ft">Ace Ventura</span><p>Progressive and melodic psytrance · Next: Boom Festival, Jul 18–25, Portugal</p></div></li>
+                <li><span class="tag">IL</span><div><span class="ft">Astral Projection</span><p>Goa trance and psytrance · Next: OZORA, Jul 23 – Aug 3, Hungary</p></div></li>
+                <li><span class="tag">IL</span><div><span class="ft">Astrix</span><p>Progressive and full-on psytrance · Next: Boom Festival, Jul 18–25, Portugal</p></div></li>
+                <li><span class="tag">UK</span><div><span class="ft">Avalon</span><p>Full-on and progressive psytrance · Next: OZORA, Jul 23 – Aug 3, Hungary</p></div></li>
+                <li><span class="tag">UK</span><div><span class="ft">Tristan</span><p>Psytrance and Goa trance · Next: Boom Festival, Jul 18–25, Portugal</p></div></li>
+                <li><span class="tag">CH</span><div><span class="ft">Liquid Soul</span><p>Progressive psytrance · Next: OZORA, Jul 23 – Aug 3, Hungary</p></div></li>
+                <li><span class="tag">IL</span><div><span class="ft">Infected Mushroom</span><p>Psytrance, electronica and rock · Next: Universo Paralello, Dec 27 – Jan 4, Brazil</p></div></li>
+                <li><span class="tag">BR</span><div><span class="ft">Burn In Noise</span><p>Full-on and progressive psytrance · Next: Universo Paralello, Dec 27 – Jan 4, Brazil</p></div></li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="block" aria-label="The psytrance scene in numbers">
+            <div class="block-title">The Psytrance Scene in Numbers</div>
+            <div class="block-body">
+              <h2 class="sec">On this portal so far</h2>
+              <div class="eco" style="margin-top:10px">
+                <div class="cell"><b>11</b><span>Events listed</span></div>
+                <div class="cell"><b>10</b><span>Countries with events</span></div>
+                <div class="cell"><b>8</b><span>Artists in events</span></div>
+                <div class="cell"><b>5</b><span>Bandcamp releases</span></div>
+              </div>
+              <p class="small muted" style="margin-top:8px">Seed counts — they grow as the portal lists more events, artists and releases.</p>
+            </div>
+          </section>
+
+          <section class="block" id="news" aria-label="Psytrance news">
+            <div class="block-title">Psytrance News</div>
+            <div class="block-body">
+              <ul class="feed">
+                <li><span class="tag">Launch</span><div><span class="ft">CTP-PSY is live</span><p>The global psytrance community portal opens — news, festivals and Bandcamp releases for the psytrance demographic, syndicated from around the world. CTP Music covers many genres; this one is just psytrance.</p></div></li>
+                <li><span class="tag">Boom</span><div><span class="ft">Boom Festival 2027: 30 years, sold out</span><p>Boom marks thirty years since the first edition in 1997 with its 30th-anniversary gathering, 18–25 July 2027 at Boomland, Idanha-a-Nova, Portugal, under the theme Psychedelic Renaissance. All 40,000 tickets sold out in two hours on 13 October 2026. <a href="https://boomfestival.org/" target="_blank" rel="noopener">boomfestival.org</a></p></div></li>
+                <li><span class="tag">Ozora</span><div><span class="ft">OZORA 2027: 23 July – 3 August, twelve days</span><p>Europe's great psytrance gathering returns to the Dádpuszta valley near Ozora, Hungary — gates open Friday 23 July, opening ceremony Monday 26 July, twelve days to 3 August. Full-on and progressive at the core. <a href="https://psychedelicisland.com/en/festivals/ozora-festival" target="_blank" rel="noopener">Festival guide</a></p></div></li>
+                <li><span class="tag">Psy-Fi</span><div><span class="ft">Psy-Fi on pause — no 2027 edition announced</span><p>The Dutch festival's 2025 edition was cancelled because of low presales, and nothing has been announced for 2026 or 2027. Psy-Fi started in 2013 and grew to around 15,000; for now the scene waits. <a href="https://psychedelicisland.com/en/festivals/psy-fi-festival" target="_blank" rel="noopener">Status</a></p></div></li>
+                <li><span class="tag">UP</span><div><span class="ft">Universo Paralello: New Year on the beach</span><p>The great southern-hemisphere gathering runs 27 December 2026 – 4 January 2027 at Praia de Pratigi, Bahia, Brazil — the biennial New Year edition, back after its two-year cycle. <a href="https://psychedelicisland.com/en/articles/psytrance-festivals-2027" target="_blank" rel="noopener">2027 calendar</a></p></div></li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="block" id="blog" aria-label="From the blog">
+            <div class="block-title">From the Blog</div>
+            <div class="block-body">
+              <h2 class="sec">Stories, insights, and updates from the psytrance scene</h2>
+              <p class="small muted">Seed posts — to be written and linked as the blog grows.</p>
+              <ul class="feed">
+                <li><span class="tag">Guide</span><div><span class="ft">What Is Psytrance? Origins, Sound and Psychedelic Trance Culture</span><p>Discover what psytrance is, how it sounds, where it originated and what sets it apart from other trance styles. An introduction to psychedelic trance music and culture.</p></div></li>
+                <li><span class="tag">Scene</span><div><span class="ft">Psytrance Festivals in Europe 2027: Dates &amp; Confirmed Festivals</span><p>Discover the confirmed psytrance festivals in Europe for 2027. Dates, locations and updates for Boom Festival, Mo:Dem, VooV, Burning Mountain and more.</p></div></li>
+                <li><span class="tag">Scene</span><div><span class="ft">Boom Festival 2027: Dates, Tickets and Everything We Know So Far</span><p>Boom Festival returns to Portugal from July 18 to 25, 2027, celebrating its 30th anniversary. Confirmed dates, tickets, stages, Boomland updates and everything announced so far.</p></div></li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="block" id="countries" aria-label="Upcoming events by country">
+            <div class="block-title">Upcoming Events by Country</div>
+            <div class="block-body">
+              <h2 class="sec">Countries with upcoming events</h2>
+              <ul class="feed">
+                <li><span class="tag">DE</span><div><span class="ft">Germany — 2 events</span><p>VooV Experience (Jul 16–19) · Indian Spirit (Aug 25–30)</p></div></li>
+                <li><span class="tag">PT</span><div><span class="ft">Portugal — 1 event</span><p>Boom Festival (Jul 18–25)</p></div></li>
+                <li><span class="tag">HU</span><div><span class="ft">Hungary — 1 event</span><p>OZORA (Jul 23 – Aug 3)</p></div></li>
+                <li><span class="tag">BR</span><div><span class="ft">Brazil — 1 event</span><p>Universo Paralello (Dec 27 – Jan 4)</p></div></li>
+                <li><span class="tag">AU</span><div><span class="ft">Australia — 1 event</span><p>Rainbow Spirit (Mar 5–8)</p></div></li>
+                <li><span class="tag">CH</span><div><span class="ft">Switzerland — 1 event</span><p>Burning Mountain (Jun 24–27)</p></div></li>
+                <li><span class="tag">FR</span><div><span class="ft">France — 1 event</span><p>Ethereal Decibel (Jul 1–4)</p></div></li>
+                <li><span class="tag">CZ</span><div><span class="ft">Czech Republic — 1 event</span><p>Masters of Puppets (Jul 5–11)</p></div></li>
+                <li><span class="tag">HR</span><div><span class="ft">Croatia — 1 event</span><p>Mo:Dem (Aug 2–8)</p></div></li>
+                <li><span class="tag">ES</span><div><span class="ft">Spain — 1 event</span><p>Own Spirit (Sep 1–6)</p></div></li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="block" id="poll" aria-label="Community poll">
+            <div class="block-title">Community Poll</div>
+            <div class="block-body">
+              <h2 class="sec" style="font-size:16px">What's your favorite psytrance style?</h2>
+              <form id="pollForm">
+                <label class="poll-opt"><input type="radio" name="subgenre" value="Full-On" /> Full-On</label>
+                <label class="poll-opt"><input type="radio" name="subgenre" value="Progressive" /> Progressive</label>
+                <label class="poll-opt"><input type="radio" name="subgenre" value="Darkpsy" /> Darkpsy</label>
+                <label class="poll-opt"><input type="radio" name="subgenre" value="Goa" /> Goa</label>
+                <label class="poll-opt"><input type="radio" name="subgenre" value="Forest" /> Forest</label>
+                <label class="poll-opt"><input type="radio" name="subgenre" value="Hi-Tech" /> Hi-Tech</label>
+                <div class="btn-row">
+                  <button type="submit" class="btn btn-primary">Vote</button>
+                  <span class="small muted" id="pollMsg" role="status"></span>
+                </div>
+              </form>
+              <div class="poll-res" id="pollResults" hidden></div>
+            </div>
+          </section>
+
+          <section class="block" id="radio-wall" aria-label="Radio wall">
+            <div class="block-title">Radio Wall</div>
+            <div class="block-body">
+              <h2 class="sec">Every channel on one wall</h2>
+              <p>Click a channel card and that channel's player comes up — stream, genre and now-playing, ready to listen. Psytrancelicious plays live now; the rest are on the wall and coming soon.</p>
+              <div class="wall" id="chanWall" style="margin-top:10px"><!-- channel cards built from the internal channel data --></div>
+            </div>
+          </section>
+
+          <section class="block" id="bandcamp" aria-label="Bandcamp curated releases">
+            <div class="block-title">Bandcamp — Curated Releases</div>
+            <div class="block-body">
+              <h2 class="sec">Curated releases only</h2>
+              <p>Bandcamp is the portal's artist layer: releases, artist pages and direct support for the artist. Every player in this section is selected and added by the portal team — there is no public submission or upload route on this page.</p>
+
+              <div class="alpha-note">
+                <p style="margin:0"><span class="alpha-badge">Alpha</span><b>Artist submissions are closed during Alpha.</b> How submissions will be structured is still being decided, so nothing can be submitted here yet. This section carries curated releases only until that structure is in place.</p>
+              </div>
+
+              <h3 class="sub">Curated releases</h3>
+              <div id="bcStack" class="bc-slot">
+                <p style="margin:0 0 10px"><b>All In — ASTRO-D (Spiral Trax)</b><br /><span class="small muted">Full-on psytrance · Released 6 March 2026 · 11 tracks</span></p>
+                <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3791203552/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://astro-d.bandcamp.com/album/all-in">All In by ASTRO-D</a></iframe>
+                <p style="margin:14px 0 10px"><b>Capsules, Vol. 1 — V/A (Iono Music)</b><br /><span class="small muted">Progressive psytrance · Released 10 July 2026 · 5 tracks</span></p>
+                <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3609202532/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://beatspace-iono.bandcamp.com/album/capsules-vol-1">Capsules, Vol. 1 by V/A (Iono Music)</a></iframe>
+                <p style="margin:14px 0 10px"><b>Emerge — Klipsun (Iboga Records)</b><br /><span class="small muted">Progressive psytrance · Released 15 October 2026 · debut album</span></p>
+                <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=3079299641/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://iboga-beatspace.bandcamp.com/album/emerge">Emerge by Klipsun (Iboga Records)</a></iframe>
+                <div class="empty-releases" style="margin-top:14px">
+                  <b>More releases coming — placeholder slot</b>
+                  <span class="small muted">Iono Music — next release. Paste the Bandcamp embed here when it lands.</span>
+                </div>
+                <div class="empty-releases" style="margin-top:10px">
+                  <b>More releases coming — placeholder slot</b>
+                  <span class="small muted">Iboga Records — next release. Paste the Bandcamp embed here when it lands.</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="block" id="club" aria-label="Club CTP membership">
+            <div class="block-title">Club CTP — Membership</div>
+            <div class="block-body">
+              <h2 class="sec">Listeners → Members → Participants → Contributors</h2>
+              <p>Club CTP is the membership and identity layer connecting the whole CTP ecosystem — CTP Music, CTP-PSY, CTP University and CTP-EOS under one membership. The portal comes first and the Marketplace later: community first, commerce second.</p>
+              <div class="tiers-row">
+                <div class="tier"><h3>Explorer</h3><div class="price">Free</div><p class="small muted">Entry point into the CTP ecosystem.</p><ul><li>Public music access</li><li>Community discovery</li><li>Basic content access</li></ul></div>
+                <div class="club-banner">
+                  <div class="cb-title">One membership across the whole CTP ecosystem</div>
+                  <p>Listeners become Members, Members become Participants, Participants become Contributors. Club CTP is the identity layer that carries that journey across CTP Music, CTP-PSY, CTP University and CTP-EOS — under one membership.</p>
+                  <p class="cb-line">Community first, commerce second — the portal comes first, the Marketplace later.</p>
+                </div>
+              </div>
+              <div class="tiers-row">
+                <div class="tier"><h3>Member</h3><span class="metal metal-bronze">Bronze</span><div class="price">$5<span> /mo · $50/yr</span></div><p class="small muted">Standard community membership.</p><ul><li>Expanded content access</li><li>Member channels</li><li>Community participation</li><li>Special announcements</li></ul></div>
+                <div class="tier"><h3>Premium</h3><span class="metal metal-silver">Silver</span><div class="price">$15<span> /mo · $150/yr</span></div><p class="small muted">Dedicated supporters.</p><ul><li>Exclusive releases</li><li>Premium audio libraries</li><li>Private experiences</li><li>Early access content</li></ul></div>
+                <div class="tier"><h3>Patron</h3><span class="metal metal-gold">Gold</span><div class="price">$50<span> /mo · $500/yr</span></div><p class="small muted">High-value supporters and ecosystem participants.</p><ul><li>Priority access</li><li>Recognition</li><li>Special releases</li><li>Premium community experiences</li></ul></div>
+                <div class="tier"><h3>Founder's Circle</h3><span class="metal metal-platinum">Platinum</span><div class="price">Custom</div><p class="small muted">Strategic supporters of the CTP ecosystem.</p><ul><li>Recognition</li><li>Exclusive access</li><li>Private opportunities</li><li>Long-term ecosystem participation</li></ul></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="block" id="ecosystem" aria-label="Ecosystem and architecture">
+            <div class="block-title">The Ecosystem &amp; The Stack</div>
+            <div class="block-body">
+              <h2 class="sec">One layer of the CTPVerse</h2>
+              <div class="eco">
+                <div class="cell"><b>CTP-PSY</b><span>Psytrance · News · Festivals · Releases</span></div>
+                <div class="cell"><b>CTP Music</b><span>Many genres · Radio · Artists · Community</span></div>
+                <div class="cell"><b>CTP-EOS</b><span>Operating System · Hardware · Platform</span></div>
+                <div class="cell"><b>Club CTP</b><span>Membership · Identity · Benefits · Access</span></div>
+              </div>
+              <h3 class="sub">Modular architecture — each layer does one job</h3>
+              <ul style="margin:0; padding-left:17px">
+                <li><b>Experience layer</b> — this portal, a static site on GitHub Pages.</li>
+                <li><b>Syndication layer</b> — psytrance news and festival dates gathered from the global scene and published here.</li>
+                <li><b>Internet radio layer</b> — laut.fm streams powering the Radio Wall and the player.</li>
+                <li><b>Artist ecosystem layer</b> — Bandcamp releases and artist pages — the curated releases above.</li>
+                <li><b>Membership layer</b> — Club CTP identity, access and tiers.</li>
+              </ul>
+              <p style="margin-top:8px">Separating the layers keeps the portal lean, secure and cheap to run — and free to scale when the community does.</p>
+            </div>
+          </section>
+
+          <section class="block" id="roadmap" aria-label="Roadmap">
+            <div class="block-title">Roadmap</div>
+            <div class="block-body">
+              <div class="phases">
+                <div class="phase"><b>Phase 1 — Launch</b>Portal live, psytrance only.<ul><li>GitHub Pages portal</li><li>News + festival calendar</li><li>laut.fm streams + curated Bandcamp releases</li><li>Club CTP foundation</li></ul></div>
+                <div class="phase"><b>Phase 2 — Syndication</b>Keep the feed current.<ul><li>Regular news updates</li><li>Festival calendar kept current</li><li>More curated Bandcamp releases</li><li>Artist features</li></ul></div>
+                <div class="phase"><b>Phase 3 — Community</b>Grow the psytrance demographic.<ul><li>Artist spotlights</li><li>Event listings</li><li>Style guides</li><li>Community features</li></ul></div>
+                <div class="phase"><b>Phase 4 — Ecosystem Integration</b>Connect the CTP platforms.<ul><li>CTP Music cross-links</li><li>CTP University</li><li>CTP-EOS integration</li><li>Future digital experiences</li></ul></div>
+              </div>
+            </div>
+          </section>
+
+          <section class="block" aria-label="Go deeper">
+            <div class="block-title">Go Deeper</div>
+            <div class="block-body">
+              <p>Whether you're diving into psytrance for the first time or expanding your playlist, this portal is the way in — from high-energy festival anthems to melodic, progressive grooves. There's something for every listener in the world of psytrance.</p>
+              <ul style="margin:0; padding-left:17px">
+                <li><a href="#artists">Best psytrance artists</a> — the names that shaped the genre, and where they play next.</li>
+                <li><a href="#bandcamp">Best psytrance releases</a> — curated Bandcamp players, full-on to progressive to darkpsy.</li>
+                <li><a href="#events">Festivals worldwide</a> — the 2027 calendar, from Boom to Ozora and beyond.</li>
+                <li><a href="https://ctp-music.github.io/" target="_blank" rel="noopener">CTP Music Portal</a> — the wider music layer: many genres, radio and artists.</li>
+              </ul>
+            </div>
+          </section>
+</main>
+{{ partial "sidebar-right.html" . }}
+</div>
+{{ end }}
