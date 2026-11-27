@@ -9,7 +9,8 @@
     {name:'FIN-DSP',href:'https://fin-dsp.github.io/',img:'https://fin-dsp.github.io/assets/branding/findsp-logo-200x200.jpg'},
     {name:'CTP Space Systems',href:'https://ctp-space-systems.github.io/',img:'https://ctp-space-systems.github.io/assets/branding/ctp-space-systems-org-avatar.jpg'},
     {name:'CTP Music',href:'https://ctp-music.github.io/',img:'https://ctp-music.github.io/assets/branding/ctp-music-org-avatar.jpg'},
-    {name:'CTPETEAMS',href:'https://ctpeteams.github.io/',img:'https://ctpeteams.github.io/assets/branding/ctpeteams-logo-400.jpg'}
+    {name:'CTPETEAMS',href:'https://ctpeteams.github.io/',img:'https://ctpeteams.github.io/assets/branding/ctpeteams-logo-400.jpg'},
+    {name:'CTPIDM',href:'https://ctpidm.github.io/',img:'https://ctpidm.github.io/assets/branding/ctpidm-org-avatar.jpg'}
   ];
   var link=document.getElementById('ctpverse-sites-link');
   var img=document.getElementById('ctpverse-sites-img');
